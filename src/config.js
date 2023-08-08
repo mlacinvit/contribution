@@ -1,1 +1,1 @@
-export const apiUrl = '';
+export const apiUrl = 'https://dpg.gg/test/calendar.json';
