@@ -2,7 +2,7 @@ import { Square } from '../UI/Square/Square';
 import './LessMore.css';
 
 function LessMore() {
-    const squers = ['one', 'two', 'three', 'four', 'five'];
+    const squers = [0, 1, 10, 20, 30];
     return (
       <div className='allBlock'>
         <p className='text'>Меньше</p> 
@@ -12,7 +12,7 @@ function LessMore() {
         <p className='text'>Больше</p>
       </div>
     );
-  }
+  };
   
   export default LessMore;
   

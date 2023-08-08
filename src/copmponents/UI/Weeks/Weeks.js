@@ -4,12 +4,16 @@ import './Weeks.css';
 function Weeks({ count }) {
     const week = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'];
     
+    let result = [];
+
+    for (let i = 0; i < count; i++) {
+        result.push(<Square key={i}/>)
+    }
+    
     return (
-      <div className='weeksBlock'>
+      <div className='monthBlock'>
         <div>
-            {week.map((sq, i) => (
-                <Square key={i} color={sq}/>
-            ))}
+            {console.log(result)}
         </div>
       </div>
     );

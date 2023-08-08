@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit';
 const name = 'contribition';
 
 export const initialState = {
-    contribitions: [],
+    contribitions: {},
     loading: false,
     error: null,
 };

@@ -1,8 +1,7 @@
 .square {
-    width: 15px;
-    height: 15px;
+    padding: 15px;
+    margin: 5px 5px;
     border: 1px solid transparent;
-    margin-right: 3px;
 }
 
 .square:hover {
@@ -10,37 +9,27 @@
     opacity: 50%;
 }
 
-.square:active, .square:focus {
+.square:active {
     border: 1px solid black;
-  }
+}
 
 .one {
     background: #EDEDED;
-    width: 15px;
-    height: 15px;
 }
 
 .two {
     background: #ACD5F2;
-    width: 15px;
-    height: 15px;
 }
 
 .three {
     background:#7FA8C9;
-    width: 15px;
-    height: 15px;
 }
 
 .four {
     background:#527BA0;
-    width: 15px;
-    height: 15px;
 }
 
 .five {
     background: #254E77;
-    width: 15px;
-    height: 15px;
 }
 
